@@ -1,18 +1,43 @@
 
+/* General Body Styling */
 body
 {
     background-color: beige;
     color: brown;
     font-family: Arial;
     text-align: center;
+    margin: 0;
 }
 
+/* Main Heading */
 h1
 {
     background-color: #D9B99B;
     padding: 20px;
+    margin-top: 0;
 }
 
+/* Navigation Bar */
+nav
+{
+    background-color: brown;
+    padding: 15px;
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    color: #D9B99B;
+}
+
+/* Tables */
 table
 {
     margin: auto;
@@ -26,10 +51,99 @@ th, td
     border: 1px solid brown;
 }
 
+/* Buttons */
 button
 {
     background-color: brown;
     color: white;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #8B4513;
+}
+
+/* Gallery Layout */
+.gallery
+{
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    justify-content: center;
+    gap: 25px;
+    margin: 30px auto;
+}
+
+/* Gallery Cards */
+.gallery-item
+{
+    background-color: white;
+    padding: 15px;
+    border: 2px solid brown;
+}
+
+/* Gallery Images */
+.gallery-item img
+{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+/* Gallery Titles */
+.gallery-item h3
+{
+    color: brown;
+}
+
+/* Contact Information */
+.contact-info
+{
+    background-color: white;
+    width: 60%;
+    margin: 25px auto;
+    padding: 15px;
+    border: 2px solid brown;
+}
+
+/* Contact Form */
+.contact-form
+{
+    background-color: white;
+    width: 60%;
+    margin: 25px auto;
+    padding: 20px;
+    border: 2px solid brown;
+}
+
+.contact-form label
+{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea
+{
+    width: 80%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid brown;
+    font-family: Arial;
+}
+
+.contact-form button
+{
+    margin-top: 20px;
+}
+
+/* Footer */
+footer
+{
+    background-color: #D9B99B;
+    padding: 15px;
+    margin-top: 30px;
 }
