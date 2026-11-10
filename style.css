@@ -1,0 +1,35 @@
+
+body
+{
+    background-color: beige;
+    color: brown;
+    font-family: Arial;
+    text-align: center;
+}
+
+h1
+{
+    background-color: #D9B99B;
+    padding: 20px;
+}
+
+table
+{
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th, td
+{
+    padding: 12px;
+    border: 1px solid brown;
+}
+
+button
+{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
